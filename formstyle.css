@@ -12,6 +12,7 @@ header nav {
 }
 h1 {
     font-size: 2em;
+    margin: 0px;
 }
 footer {
     background-color: #5169a7;
@@ -40,11 +41,10 @@ section:nth-of-type(1) {
 
 section:nth-of-type(2) {
     background-color: rgb(209, 190, 173);
-    font-size: larger;
+    font-size: x-large;
     border-bottom: solid rgb(86, 25, 145);
     margin: 0px;
-    display: flex;
-    justify-content: space-between;
+    padding-inline-start: 10px;
 }
 
 ul:nth-of-type(2) li:nth-of-type(2) {
@@ -52,5 +52,20 @@ ul:nth-of-type(2) li:nth-of-type(2) {
 }
 button {
     background-color: #7195f0;
-    font: white;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section div {
+    border-bottom: solid black;
+    width: 300 px;
+}
+a {
+    color: black;
+}
+footer img {
+    margin: 5px;
 }
