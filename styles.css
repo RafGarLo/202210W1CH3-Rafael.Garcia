@@ -1,3 +1,15 @@
 * {
     box-sizing: border-box;
 }
+header {
+    background-color: rgb(86, 25, 145);
+}
+footer {
+    background-color: rgb(86, 25, 145);
+}
+footer.img {
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
