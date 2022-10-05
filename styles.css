@@ -23,7 +23,8 @@ footer {
 }
 
 footer.img {
-    margin: 0%;
+    margin: 5px;
+    padding: 5px;
 }
 ul {
     list-style: none;
@@ -58,4 +59,11 @@ section:nth-of-type(3) {
 }
 ul:nth-of-type(2) li:nth-of-type(2) {
     color: rgb(209, 190, 173);
+}
+.cart-items:visited {
+    text-decoration-line: line-through;
+}
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: rgb(218, 146, 12);
 }
